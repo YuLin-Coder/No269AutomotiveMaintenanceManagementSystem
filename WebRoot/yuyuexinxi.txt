@@ -1,0 +1,4 @@
+CREATE TABLE [dbo].[yuyuexinxi] (
+	[ID] [int] IDENTITY (1, 1) NOT NULL ,[chepaihao] [varchar] (50) COLLATE Chinese_PRC_CI_AS NULL ,[pinpaixinghao] [varchar] (50) COLLATE Chinese_PRC_CI_AS NULL ,[chezhuxingming] [varchar] (50) COLLATE Chinese_PRC_CI_AS NULL ,[lianxidianhua] [varchar] (50) COLLATE Chinese_PRC_CI_AS NULL ,[yuyueshixiang] [varchar] (50) COLLATE Chinese_PRC_CI_AS NULL ,[yuyueshijian] [varchar] (50) COLLATE Chinese_PRC_CI_AS NULL ,[beizhu] [varchar] (500) COLLATE Chinese_PRC_CI_AS NULL ,[issh] [varchar] (2) COLLATE Chinese_PRC_CI_AS NULL DEFAULT ('·ñ')  ,[addtime] [datetime] DEFAULT (getdate()) 
+) ON [PRIMARY] 
+GO
